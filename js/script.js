@@ -1,3 +1,5 @@
+// Validação do formulário de cadastro
+
 const conteudo = document.getElementById("conteudo");
 const links = document.querySelectorAll("nav a");
 
