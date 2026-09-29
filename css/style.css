@@ -586,3 +586,39 @@ footer p {
     border-left: 5px solid var(--cor-primaria);
     border-radius: 8px;
 }
+
+a:focus,
+input:focus,
+button:focus,
+summary:focus {
+    outline: 2px solid #000;
+    outline-offset: 2px;
+}
+
+.dark-mode {
+    --cor-fundo: #121212;
+    --cor-fundo-formulario: #1E1E1E;
+    --cor-branca: #242424;
+    --cor-texto: #FFFFFF;
+    --cor-borda: #757575;
+    --cor-destaque: #263238;
+    --cor-foco: #37474F;
+}
+
+/* Botão modo escuro */
+
+#botaoModoEscuro {
+    padding: var(--espaco-2) var(--espaco-3);
+    margin-top: var(--espaco-3);
+    background-color: var(--cor-branca);
+    color: var(--cor-texto);
+    border: 1px solid var(--cor-borda);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: var(--tamanho-texto);
+    font-weight: bold;
+}
+
+#botaoModoEscuro:hover {
+    background-color: var(--cor-secundaria);
+}
